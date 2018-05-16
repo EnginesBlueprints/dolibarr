@@ -27,7 +27,7 @@
         "url": "http://www.gnu.org/copyleft/gpl.html"
       }
     },
-    "timestamp": "2018-05-16T17:29:41+10:00"
+    "timestamp": "2018-05-16T17:33:21+10:00"
   },
   "software": {
     "base": {
@@ -70,6 +70,11 @@
       {
         "name": "rewrite",
         "type": "apache"
+      },
+      {
+        "name": "php-curl",
+        "type": "php",
+        "os_package": "php-curl"
       }
     ],
     "service_configurations": [
