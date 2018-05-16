@@ -27,7 +27,7 @@
         "url": "http://www.gnu.org/copyleft/gpl.html"
       }
     },
-    "timestamp": "2018-05-16T17:48:16+10:00"
+    "timestamp": "2018-05-16T17:53:55+10:00"
   },
   "software": {
     "base": {
@@ -75,6 +75,11 @@
         "name": "php-curl",
         "type": "php",
         "os_package": "php-curl"
+      },
+      {
+        "name": "ldap",
+        "type": "php",
+        "os_package": "php-ldap"
       }
     ],
     "service_configurations": [
