@@ -27,7 +27,7 @@
         "url": "http://www.gnu.org/copyleft/gpl.html"
       }
     },
-    "timestamp": "2018-05-16T16:45:12+10:00"
+    "timestamp": "2018-05-16T16:56:42+10:00"
   },
   "software": {
     "base": {
@@ -124,12 +124,6 @@
       {
         "path": "app/documents",
         "volume_name": "documents"
-      }
-    ],
-    "persistent_files": [
-      {
-        "path": "app/htdocs/conf/conf.php",
-        "volume_name": "conf"
       }
     ]
   }
