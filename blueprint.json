@@ -27,7 +27,7 @@
         "url": "http://www.gnu.org/copyleft/gpl.html"
       }
     },
-    "timestamp": "2018-05-16T17:20:08+10:00"
+    "timestamp": "2018-05-16T17:29:41+10:00"
   },
   "software": {
     "base": {
@@ -101,9 +101,9 @@
         "publisher_namespace": "EnginesSystem",
         "type_path": "filesystem/local/filesystem",
         "variables": {
-          "service_name": "conf",
+          "service_name": "config",
           "volume_src": "",
-          "engine_path": "",
+          "engine_path": "/home/fs/config",
           "permissions": "rw",
           "user": "_Engines_Builder(data_uid)",
           "group": "_Engines_Builder(data_gid)"
@@ -124,6 +124,12 @@
       {
         "path": "app/documents",
         "volume_name": "documents"
+      }
+    ],
+    "persistent_files": [
+      {
+        "path": "/home/app/htdocs/conf/conf.php",
+        "volume_name": "config"
       }
     ]
   }
