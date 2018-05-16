@@ -27,7 +27,7 @@
         "url": "http://www.gnu.org/copyleft/gpl.html"
       }
     },
-    "timestamp": "2018-05-16T17:33:21+10:00"
+    "timestamp": "2018-05-16T17:48:16+10:00"
   },
   "software": {
     "base": {
@@ -127,7 +127,7 @@
     },
     "persistent_directories": [
       {
-        "path": "app/documents",
+        "path": "/home/app/documents",
         "volume_name": "documents"
       }
     ],
