@@ -27,7 +27,7 @@
         "url": "http://www.gnu.org/copyleft/gpl.html"
       }
     },
-    "timestamp": "2018-05-16T16:27:28+10:00"
+    "timestamp": "2018-05-16T16:35:03+10:00"
   },
   "software": {
     "base": {
@@ -59,8 +59,8 @@
     },
     "installed_packages": [
       {
-        "name": "dolibarr-4.0.4.tgz",
-        "source_url": "https://sourceforge.net/projects/dolibarr/files/Dolibarr%20ERP-CRM/4.0.4/dolibarr-4.0.4.tgz/download",
+        "name": "dolibarr-7.0.2.tgz",
+        "source_url": "https://sourceforge.net/projects/dolibarr/files/Dolibarr%20ERP-CRM/7.0.2/dolibarr-7.0.2.tgz/download",
         "destination": "./",
         "extraction_command": "tar -xpf",
         "path_to_extracted": "dolibarr-4.0.4/"
