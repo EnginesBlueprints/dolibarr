@@ -27,7 +27,7 @@
         "url": "http://www.gnu.org/copyleft/gpl.html"
       }
     },
-    "timestamp": "2020-02-22T19:06:17+11:00"
+    "timestamp": "2020-02-23T07:55:37+11:00"
   },
   "software": {
     "base": {
@@ -81,6 +81,11 @@
         "name": "ldap",
         "type": "php",
         "os_package": "php-ldap"
+      },
+      {
+        "name": "intl",
+        "type": "php",
+        "os_package": "php-intl"
       }
     ],
     "service_configurations": [
